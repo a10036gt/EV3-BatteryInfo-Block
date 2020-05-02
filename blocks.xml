@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+	<PolyGroups ModuleName="OFDL Battery Info" ModuleVersion="1.2 (By OFDL.Dev)">
+		<PolyGroup Name="OFDL Battery Info" BlockFamily="Advanced">
+			<Parameter Name="Voltage" Direction="Output" DataType="Single" Identification="builtin://Identification_OutVolts.png"/>
+			<Parameter Name="Level" Direction="Output" DataType="Single" Identification="builtin://Identification_Threshold_Less_+1.png"/>
+			<Block>
+				<Mode>VBatt</Mode>
+				<Reference Type="VILib" Name="OFDL_VBATT.vix" />
+				<ParameterReference Name="Voltage"/>
+				<PaletteInfo Weight="0.5" />
+			</Block>
+			<Block>
+				<Mode>LBatt</Mode>
+				<Reference Type="VILib" Name="OFDL_LBATT.vix" />
+				<ParameterReference Name="Level"/>
+			</Block>
+		</PolyGroup>
+	</PolyGroups>
+</EditorDefinitions>

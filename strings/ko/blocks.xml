@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorStrings>
+  <PolyGroups ModuleName="OFDL Battery Info">
+    <PolyGroup Name="OFDL Battery Info" DisplayName="Battery Info">
+      <Description><![CDATA[<p>OFDL_BATT</p>]]></Description>
+      <Parameter Name="Level" DisplayName="Battery level (percentage)">
+        <Description><![CDATA[<p>OFDL_BATT</p>]]></Description>
+      </Parameter>
+      <Parameter Name="Voltage" DisplayName="Voltage (Volt)">
+        <Description><![CDATA[<p>OFDL_BATT</p>]]></Description>
+      </Parameter>
+      <Block Mode="LBatt" DisplayName="Read Level (%)">
+        <Description><![CDATA[<p>OFDL_BATT</p>]]></Description>
+      </Block>
+      <Block Mode="VBatt" DisplayName="Read Voltage (Volt)">
+        <Description><![CDATA[<p>OFDL_BATT</p>]]></Description>
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorStrings>
