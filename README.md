@@ -8,6 +8,6 @@ What’s EV3 BatteryView Info Block？
 You can use this block to read out the "real" voltage or percentage of your EV3 battery!!
 But you need use our special Firmware to support this block.You can download from here.[EV3FW-V1.21C-OFDL.bin](https://github.com/a10036gt/EV3-BatteryInfo-Block/releases/download/v1.2/EV3FW-V1.21C-OFDL.bin)
 
-使用說明：https://www.ofdl.nctu.me/ev3-hack/ev3-battery-info-block/
+使用說明：https://ofdl.tw/ev3-hack/ev3-battery-info-block/
 
-User Guide：https://www.ofdl.nctu.me/en/ev3-hacking/ev3-battery-info-blocks/
+User Guide：https://ofdl.tw/en/ev3-hacking/ev3-battery-info-blocks/
